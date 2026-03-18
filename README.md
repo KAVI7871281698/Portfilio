@@ -27,6 +27,19 @@ A **dark-themed, animated developer portfolio** built from scratch using pure HT
 
 ---
 
+## 🖼️ Preview Screenshots
+
+### 🏠 Hero Section
+![Hero Section Preview](./Images/preview_hero.png)
+
+### 🗂️ Projects Section
+![Projects Section Preview](./Images/preview_projects.png)
+
+### 🛠️ Skills & About Section
+![Skills Section Preview](./Images/preview_skills.png)
+
+---
+
 ## ✨ Features
 
 | Feature | Description |
