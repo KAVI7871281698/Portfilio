@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kavipriyan — Full Stack Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../Styles/style.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <img src="../Images/logo.png" alt="Kavipriyan Logo" class="nav-logo-img">
+  </div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Hire Me</a>
+  <button class="nav-hamburger" id="hamburger" aria-label="Toggle Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<!-- MOBILE NAV DRAWER -->
+<div class="nav-mobile" id="mobileNav">
+  <a href="#about" class="mobile-nav-link">About</a>
+  <a href="#skills" class="mobile-nav-link">Skills</a>
+  <a href="#projects" class="mobile-nav-link">Projects</a>
+  <a href="#experience" class="mobile-nav-link">Experience</a>
+  <a href="#contact" class="mobile-nav-link">Contact</a>
+  <a href="#contact" class="btn-primary" style="margin-top:1rem;">Hire Me</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Available for freelance &amp; full-time</div>
+    <h1 class="hero-name">
+      <span class="line1">Full Stack</span>
+      <span class="line2">Developer.</span>
+    </h1>
+    <p class="hero-role">
+      <strong>Flutter</strong> Mobile &amp; <strong>Flutter</strong> Web Developer &nbsp;·&nbsp;
+      <em>Python</em> Backend Engineer &nbsp;·&nbsp; <em>API</em> Architect
+    </p>
+    <p class="hero-desc">
+      Crafting seamless cross-platform experiences with Flutter and powering them
+      with robust Python backends. From pixel-perfect UIs to scalable APIs.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-outline">Get In Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">3+</div>
+        <div class="stat-label">Years Exp</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">20+</div>
+        <div class="stat-label">Projects</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">15+</div>
+        <div class="stat-label">Happy Clients</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-section">
+  <div class="marquee-track">
+    <!-- Set 1 -->
+    <span class="marquee-item"><span class="dot"></span>Flutter</span>
+    <span class="marquee-item"><span class="dot"></span>Python</span>
+    <span class="marquee-item"><span class="dot"></span>Dart</span>
+    <span class="marquee-item"><span class="dot"></span>FastAPI</span>
+    <span class="marquee-item"><span class="dot"></span>Django</span>
+    <span class="marquee-item"><span class="dot"></span>Firebase</span>
+    <span class="marquee-item"><span class="dot"></span>REST APIs</span>
+    <span class="marquee-item"><span class="dot"></span>PostgreSQL</span>
+    <span class="marquee-item"><span class="dot"></span>Docker</span>
+    <span class="marquee-item"><span class="dot"></span>Git</span>
+    <span class="marquee-item"><span class="dot"></span>GetX</span>
+    <span class="marquee-item"><span class="dot"></span>Riverpod</span>
+    <span class="marquee-item"><span class="dot"></span>Bloc</span>
+    <span class="marquee-item"><span class="dot"></span>SQLite</span>
+    <!-- Set 2 (duplicate for seamless loop) -->
+    <span class="marquee-item"><span class="dot"></span>Flutter</span>
+    <span class="marquee-item"><span class="dot"></span>Python</span>
+    <span class="marquee-item"><span class="dot"></span>Dart</span>
+    <span class="marquee-item"><span class="dot"></span>FastAPI</span>
+    <span class="marquee-item"><span class="dot"></span>Django</span>
+    <span class="marquee-item"><span class="dot"></span>Firebase</span>
+    <span class="marquee-item"><span class="dot"></span>REST APIs</span>
+    <span class="marquee-item"><span class="dot"></span>PostgreSQL</span>
+    <span class="marquee-item"><span class="dot"></span>Docker</span>
+    <span class="marquee-item"><span class="dot"></span>Git</span>
+    <span class="marquee-item"><span class="dot"></span>GetX</span>
+    <span class="marquee-item"><span class="dot"></span>Riverpod</span>
+    <span class="marquee-item"><span class="dot"></span>Bloc</span>
+    <span class="marquee-item"><span class="dot"></span>SQLite</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-visual reveal">
+      <div class="about-photo-frame">
+        <img src="../Images/logo.png" alt="Kavipriyan" style="width:100%; height:100%; object-fit:cover; opacity: 0.8;">
+      </div>
+      <div class="about-badge">
+        <span>✦</span>
+        Available<br>Now
+      </div>
+    </div>
+    <div class="about-content reveal">
+      <div class="section-label">About Me</div>
+      <h3>Building apps that<br><em style="font-style:italic;color:var(--accent)">feel alive.</em></h3>
+      <p>
+        I'm a passionate Full Stack Developer specializing in Flutter for cross-platform mobile &amp; web apps and Python for powerful backend systems. I love turning complex problems into elegant, user-friendly solutions.
+      </p>
+      <p>
+        Whether it's a sleek mobile app with smooth animations, a robust REST API, or a complete product from idea to deployment — I bring both technical depth and creative thinking to every project.
+      </p>
+      <div class="skill-pills">
+        <span class="pill flutter">Flutter</span>
+        <span class="pill flutter">Dart</span>
+        <span class="pill python">Python</span>
+        <span class="pill python">FastAPI</span>
+        <span class="pill python">Django</span>
+        <span class="pill">Firebase</span>
+        <span class="pill">PostgreSQL</span>
+        <span class="pill">Docker</span>
+        <span class="pill">REST APIs</span>
+        <span class="pill">Git</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label reveal">Technical Skills</div>
+  <h2 class="section-title reveal">My Expertise</h2>
+  <p class="section-sub reveal">A focused stack built for shipping real products — fast, scalable, and maintainable.</p>
+  <div class="skills-container">
+    <div class="skill-card reveal">
+      <div class="skill-card-icon">📱</div>
+      <div class="skill-card-title">Flutter Development</div>
+      <div class="skill-card-desc">Cross-platform apps for iOS, Android, Web &amp; Desktop from a single codebase. Pixel-perfect UIs with smooth 60fps animations.</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Flutter</span>
+        <span class="skill-tag">Dart</span>
+        <span class="skill-tag">GetX</span>
+        <span class="skill-tag">Riverpod</span>
+        <span class="skill-tag">Bloc</span>
+        <span class="skill-tag">Provider</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-card-icon">🐍</div>
+      <div class="skill-card-title">Python Backend</div>
+      <div class="skill-card-desc">Building scalable REST APIs and web services using modern Python frameworks with clean architecture and best practices.</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">FastAPI</span>
+        <span class="skill-tag">Django</span>
+        <span class="skill-tag">Flask</span>
+        <span class="skill-tag">SQLAlchemy</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-card-icon">🗄️</div>
+      <div class="skill-card-title">Database & Storage</div>
+      <div class="skill-card-desc">Designing efficient data models and choosing the right database for each use case — relational or NoSQL.</div>
+      <div class="skill-tags">
+        <span class="skill-tag">PostgreSQL</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">Firebase</span>
+        <span class="skill-tag">SQLite</span>
+        <span class="skill-tag">Redis</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-card-icon">☁️</div>
+      <div class="skill-card-title">DevOps & Deployment</div>
+      <div class="skill-card-desc">Containerizing apps and deploying to cloud platforms. CI/CD pipelines, environment management, and production-ready setups.</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">Linux</span>
+        <span class="skill-tag">AWS</span>
+        <span class="skill-tag">Firebase Hosting</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label reveal">Portfolio</div>
+  <h2 class="section-title reveal">Selected Projects</h2>
+  <p class="section-sub reveal">Real-world applications built with care, performance, and scalability in mind.</p>
+
+  <div class="projects-grid">
+    <!-- Featured Project -->
+    <div class="project-card featured reveal">
+      <div class="project-image" style="background: linear-gradient(135deg,#0d1b2a,#1a1a2e);">
+        <div class="project-image-bg" style="background: radial-gradient(circle at 50% 50%, var(--flutter), transparent 60%); opacity:0.15;"></div>
+        <span style="font-size:5rem; position:relative; z-index:1;">🛒</span>
+      </div>
+      <div class="project-info">
+        <div class="project-num">01 / Featured</div>
+        <h3 class="project-title">E-Commerce Flutter App</h3>
+        <p class="project-desc">A full-featured e-commerce mobile app with product browsing, cart, payments via Razorpay, order tracking, and an admin dashboard built with Python FastAPI backend.</p>
+        <div class="project-tech">
+          <span class="tech-badge">Flutter</span>
+          <span class="tech-badge">FastAPI</span>
+          <span class="tech-badge">PostgreSQL</span>
+          <span class="tech-badge">Firebase Auth</span>
+          <span class="tech-badge">Razorpay</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+          <a href="#" class="project-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Live Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card reveal">
+      <div class="project-image" style="background: linear-gradient(135deg,#0f2027,#1a1a0e);">
+        <span style="font-size:3.5rem; position:relative; z-index:1;">💬</span>
+      </div>
+      <div class="project-info">
+        <div class="project-num">02</div>
+        <h3 class="project-title">Real-Time Chat App</h3>
+        <p class="project-desc">Messaging app with real-time communication using WebSockets, group chats, media sharing, and push notifications.</p>
+        <div class="project-tech">
+          <span class="tech-badge">Flutter</span>
+          <span class="tech-badge">Django Channels</span>
+          <span class="tech-badge">WebSocket</span>
+          <span class="tech-badge">Firebase FCM</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card reveal">
+      <div class="project-image" style="background: linear-gradient(135deg,#1a0533,#0a1628);">
+        <span style="font-size:3.5rem; position:relative; z-index:1;">📊</span>
+      </div>
+      <div class="project-info">
+        <div class="project-num">03</div>
+        <h3 class="project-title">Task Management Dashboard</h3>
+        <p class="project-desc">Flutter web app with Kanban boards, team collaboration, analytics charts, and a Python REST API with JWT authentication.</p>
+        <div class="project-tech">
+          <span class="tech-badge">Flutter Web</span>
+          <span class="tech-badge">FastAPI</span>
+          <span class="tech-badge">JWT Auth</span>
+          <span class="tech-badge">PostgreSQL</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+          <a href="#" class="project-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Live Demo
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div style="max-width: 700px;">
+    <div class="section-label reveal">Career</div>
+    <h2 class="section-title reveal">Experience</h2>
+    <p class="section-sub reveal">A journey of building, learning, and shipping.</p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2023 — Present</div>
+        <div class="timeline-role">Flutter & Python Full Stack Developer</div>
+        <div class="timeline-company">Freelance / Remote</div>
+        <div class="timeline-desc">Building end-to-end mobile and web applications for clients globally. Designing Flutter UIs, Python APIs, database schemas, and deploying to production environments.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2022 — 2023</div>
+        <div class="timeline-role">Junior Flutter Developer</div>
+        <div class="timeline-company">Tech Startup · Hybrid</div>
+        <div class="timeline-desc">Developed and maintained Flutter mobile apps for Android and iOS. Collaborated with backend teams on API integration, state management using GetX and Bloc, and Firebase services.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2021 — 2022</div>
+        <div class="timeline-role">Python Backend Intern</div>
+        <div class="timeline-company">Software Company · On-site</div>
+        <div class="timeline-desc">Built REST APIs with Django REST Framework, wrote unit tests, managed PostgreSQL databases, and assisted in deploying applications using Docker.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner reveal">
+    <div class="section-label" style="justify-content:center;">Get In Touch</div>
+    <h2 class="contact-big">Let's Build<br><span>Something Great</span></h2>
+    <p class="contact-sub">Have a project in mind? Looking for a Flutter developer or Python backend engineer? I'd love to hear from you. Let's turn your idea into reality.</p>
+    <a href="mailto:your@email.com" class="contact-email">your@email.com</a>
+    <div class="social-links">
+      <a href="#" class="social-link" title="GitHub">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+      </a>
+      <a href="#" class="social-link" title="LinkedIn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+      </a>
+      <a href="#" class="social-link" title="Twitter / X">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="#" class="social-link" title="Telegram">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>© 2026 Kavipriyan — Flutter &amp; Python Full Stack Developer</div>
+  <div>Built with HTML · CSS · JS &nbsp;·&nbsp; Vattalkundu, TN 🇮🇳</div>
+</footer>
+
+<script src="../Script/script.js"></script>
+</body>
+</html>
