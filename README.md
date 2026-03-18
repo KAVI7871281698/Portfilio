@@ -11,6 +11,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![GitHub](https://img.shields.io/badge/GitHub-KAVI7871281698-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KAVI7871281698/Portfilio)
 
 </div>
 
@@ -19,6 +20,8 @@
 ## 📌 Overview
 
 A **dark-themed, animated developer portfolio** built from scratch using pure HTML, CSS, and JavaScript — no frameworks, no dependencies. Designed to showcase Flutter & Python full-stack projects with a premium, modern aesthetic.
+
+> 🔗 **Repository:** [github.com/KAVI7871281698/Portfilio](https://github.com/KAVI7871281698/Portfilio)
 
 > Clean separation of concerns: HTML in `Pages/`, CSS in `Styles/`, JS in `Script/`.
 
@@ -46,7 +49,7 @@ A **dark-themed, animated developer portfolio** built from scratch using pure HT
 ```
 Portfilio/
 │
-├── 📄 README.md               ← You are here
+├── 📄 README.md               ← Project documentation
 │
 ├── 📂 Pages/
 │   └── index.htm              ← Main HTML page
@@ -107,6 +110,7 @@ Portfilio/
 | `--muted` | `#6b6b8a` | Muted / secondary text |
 
 ### Typography
+
 | Font | Usage |
 |---|---|
 | **Syne** | Headings, names, bold display text |
@@ -117,15 +121,18 @@ Portfilio/
 
 ## 🚀 Getting Started
 
-No build tools or package manager required. Open directly in a browser:
+No build tools or package manager required. Clone and open directly in a browser:
 
 ```bash
-# Clone or download the project
-git clone https://github.com/kavipriyan/portfolio.git
+# Clone the repository
+git clone https://github.com/KAVI7871281698/Portfilio.git
+
+# Navigate into the folder
+cd Portfilio
 
 # Open in browser
-# Simply double-click Pages/index.htm
-# OR use VS Code Live Server extension for auto-reload
+# Double-click Pages/index.htm
+# OR use VS Code Live Server for auto-reload
 ```
 
 ### Recommended: VS Code + Live Server
@@ -137,7 +144,22 @@ git clone https://github.com/kavipriyan/portfolio.git
 
 ---
 
-## 📸 Sections
+## 🌐 Deployment
+
+### GitHub Pages
+
+1. Go to your repo: [github.com/KAVI7871281698/Portfilio](https://github.com/KAVI7871281698/Portfilio)
+2. Navigate to **Settings → Pages**
+3. Set source branch to `main`, folder to `/(root)`
+4. Click **Save** — your site will be live at:
+
+```
+https://KAVI7871281698.github.io/Portfilio/Pages/index.htm
+```
+
+---
+
+## 📸 Portfolio Sections
 
 | Section | Description |
 |---|---|
@@ -152,13 +174,33 @@ git clone https://github.com/kavipriyan/portfolio.git
 
 ---
 
-## 🔗 Connect
+## 📂 Git Workflow
+
+```bash
+# Current branches
+git branch
+# * develop
+#   main
+
+# Add changes
+git add .
+
+# Commit
+git commit -m "your message"
+
+# Push to main
+git push origin main
+```
+
+---
+
+## 🔗 Connect with Me
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kavipriyan)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kavipriyan)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/kavipriyan)
+[![GitHub](https://img.shields.io/badge/GitHub-KAVI7871281698-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KAVI7871281698)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kavipriyan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kavipriyan)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 
 </div>
 
@@ -167,9 +209,7 @@ git clone https://github.com/kavipriyan/portfolio.git
 ## 📝 License
 
 ```
-MIT License
-
-Copyright (c) 2026 Kavipriyan
+MIT License — Copyright (c) 2026 Kavipriyan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -182,7 +222,9 @@ copies of the Software.
 
 <div align="center">
 
-Made with ❤️ by **Kavipriyan** · Vattalkundu, TN 🇮🇳
+⭐ **Star this repo** if you found it helpful!
+
+Made with ❤️ by **[Kavipriyan](https://github.com/KAVI7871281698)** · Vattalkundu, TN 🇮🇳
 
 *Built with HTML · CSS · JS — No frameworks, just craft.*
 
